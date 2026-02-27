@@ -1,0 +1,101 @@
+ * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 1rem 2rem;
+    /* 1 rem pading in y dirction(top and bottom) and 2 rem padding in x direction(left and right)*/
+   height: 60px;
+   
+}
+
+.header div a {
+    color: white;
+    text-decoration: none;
+    padding-right: 2px;
+    margin: 0 15px; /*This adds space left and right of each link*/
+}
+
+.main-section {
+    background-image: url(   https://media.istockphoto.com/id/1408022364/photo/multicultural-designer-sharing-ideas-during-a-meeting.jpg?s=612x612&w=0&k=20&c=1NvbeeATBpkLdpbifvU95m-5c2BFP-EZChfAZaqFzfQ=);
+    /*vh is viewport height*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* this represent which part of the iimage needs to be displayed that is top , bottom , center*/
+}
+
+.overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.36);
+    /* this is used to show the opacity of the background image  and it can range from 0 to 1*/
+}
+button{
+    border-radius: 10px;
+    background-color: rgba(100, 187, 237, 0.781);
+    color: aliceblue;
+    padding: 10px;
+    }
+aside h3{
+  color: black;
+}
+.hello{
+    display:grid;
+    background-color: rgb(199, 235, 223);
+    width: 200px;
+    height: 200px;
+    margin-left:20px ;
+    margin-top: 20px;
+}
+.hi{
+    margin: 15px;
+    color:black;
+}
+.wrap{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+.over{
+    display: grid;
+    gap: 10px;
+    margin: 15px;
+    font-size: 20px;
+}
+
+.cards{
+    display: flex;
+    gap: 50px;
+    margin-top: 10px;
+
+}
+.project{
+    margin: 15px;
+}
+.project h1{
+    color: black ;
+}
+.cards h3{
+    color: black;
+}
+.one{
+    background-color: rgb(243, 246, 245);
+    padding: 15px;
+    height: 60px;
+    width: 250px;
+    border-radius: 20px;
+    margin: 0;
+}
